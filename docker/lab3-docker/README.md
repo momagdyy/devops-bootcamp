@@ -15,3 +15,9 @@
 - RUN: Build app and generate JAR file
 - EXPOSE: Open port 8080
 - CMD: Run the app when container starts
+
+## ScreenShots:
+<img width="1916" height="972" alt="Screenshot 2026-04-14 231653" src="https://github.com/user-attachments/assets/353d1cb9-e2c0-4556-930b-beacd80a5321" />
+<img width="642" height="136" alt="Screenshot 2026-04-14 233348" src="https://github.com/user-attachments/assets/f73fd9db-863d-4958-a4b1-66c9964850b4" />
+
+
