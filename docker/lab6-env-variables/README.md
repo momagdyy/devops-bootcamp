@@ -21,3 +21,9 @@ ENV APP_REGION=canada-west
 - http://localhost:8081 → development, us-east
 - http://localhost:8082 → staging, us-west
 - http://localhost:8083 → production, canada-west
+
+## Screenshots:
+<img width="1919" height="1016" alt="Screenshot 2026-04-18 212546" src="https://github.com/user-attachments/assets/dfde88d7-4424-477f-88a9-9d7a70e73444" />
+<img width="1919" height="1014" alt="Screenshot 2026-04-18 212641" src="https://github.com/user-attachments/assets/b3424e38-0ad5-4302-b503-1c32d2c5650e" />
+<img width="1908" height="971" alt="Screenshot 2026-04-18 212626" src="https://github.com/user-attachments/assets/0422c456-68e5-4a72-8147-547b12c9ab63" />
+
