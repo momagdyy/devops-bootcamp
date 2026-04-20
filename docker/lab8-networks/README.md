@@ -46,6 +46,9 @@ docker run -d -p 5002:5000 --name frontend2 frontend-image
 ## Test Results:
 - http://localhost:5001 → 'Frontend received: Hello from Backend!'✅
 - http://localhost:5002 → 'Could not connect to backend.' ❌
+<img width="1919" height="1009" alt="Screenshot 2026-04-19 011808" src="https://github.com/user-attachments/assets/cf64d830-2145-4f90-88bf-de4cc3781bf1" />
+<img width="1919" height="1017" alt="Screenshot 2026-04-19 011759" src="https://github.com/user-attachments/assets/d8062d0e-598c-48a6-9ae9-28a0e8f4523e" />
+
 
 ## Key Concepts:
 
