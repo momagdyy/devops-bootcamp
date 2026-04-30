@@ -20,6 +20,7 @@ Data is base64 encoded for security.
 
 ## Commands:
 kubectl apply -f configmap.yaml
+
 kubectl apply -f secret.yaml
 
 ## Verify:
