@@ -14,7 +14,7 @@ Has permanent IP unlike pods.
 - clusterip-service.yaml: ClusterIP Service
 
 ## Key Configurations:
-- Replicas: 2 (1 running due to taint)
+- Replicas: 2 (1 running due to quota limit)
 - Image: megzz22/ivolve-app:latest
 - Toleration: node=worker:NoSchedule
 - ConfigMap: DB_HOST, DB_USER
@@ -22,16 +22,20 @@ Has permanent IP unlike pods.
 - PVC: app-logs-pvc mounted to /app/logs
 
 ## Commands:
+```bash
 kubectl apply -f deployment.yaml
 kubectl apply -f clusterip-service.yaml
+```
 
 ## Verify:
+```bash
 kubectl get deployment -n ivolve
 kubectl get pods -n ivolve
 kubectl get service -n ivolve
+```
 
 ## Result:
-- nodejs-app: 1/2 Ready (1 pod due to taint) ✅
+- nodejs-app: 1/2 Ready (1 pod due to quota) ✅
 - nodejs-service ClusterIP: 10.107.39.180 ✅
 
 ## Key Concepts:
