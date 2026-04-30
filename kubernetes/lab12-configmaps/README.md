@@ -22,6 +22,8 @@ Data is base64 encoded for security.
 kubectl apply -f configmap.yaml
 
 kubectl apply -f secret.yaml
+<img width="632" height="89" alt="image" src="https://github.com/user-attachments/assets/0c5c6aaa-b622-4846-ba5c-0059a8e1bb58" />
+
 
 ## Verify:
 kubectl get configmap -n ivolve
@@ -31,6 +33,7 @@ kubectl get secret -n ivolve
 kubectl describe configmap mysql-config -n ivolve
 
 kubectl describe secret mysql-secret -n ivolve
+<img width="831" height="507" alt="image" src="https://github.com/user-attachments/assets/97de41d3-3d24-4fed-8ce0-0863e116294f" />
 
 ## Key Concepts:
 - ConfigMap = Non-sensitive config storage
