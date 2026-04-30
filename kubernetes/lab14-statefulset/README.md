@@ -21,8 +21,10 @@ Used to connect to specific database pod.
 - Replicas: 1
 
 ## Commands:
--kubectl apply -f headless-service.yaml
--kubectl apply -f statefulset.yaml
+kubectl apply -f headless-service.yaml
+
+kubectl apply -f statefulset.yaml
+<img width="619" height="89" alt="image" src="https://github.com/user-attachments/assets/4745eb9f-4739-49e7-b262-7bbe2e53cc0f" />
 
 ## Verify:
 kubectl get statefulset -n ivolve
