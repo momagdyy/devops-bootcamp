@@ -34,6 +34,8 @@ kubectl describe configmap mysql-config -n ivolve
 
 kubectl describe secret mysql-secret -n ivolve
 <img width="831" height="507" alt="image" src="https://github.com/user-attachments/assets/97de41d3-3d24-4fed-8ce0-0863e116294f" />
+<img width="915" height="177" alt="image" src="https://github.com/user-attachments/assets/85063f21-382d-4192-bc21-a240fae6ff88" />
+
 
 ## Key Concepts:
 - ConfigMap = Non-sensitive config storage
