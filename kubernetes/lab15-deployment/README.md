@@ -33,6 +33,7 @@ kubectl get deployment -n ivolve
 kubectl get pods -n ivolve
 kubectl get service -n ivolve
 ```
+<img width="716" height="249" alt="image" src="https://github.com/user-attachments/assets/0af5d7e3-33b2-44ea-bfc5-a742b428ff56" />
 
 ## Result:
 - nodejs-app: 1/2 Ready (1 pod due to quota) ✅
