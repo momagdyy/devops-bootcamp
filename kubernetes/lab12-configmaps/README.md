@@ -24,8 +24,11 @@ kubectl apply -f secret.yaml
 
 ## Verify:
 kubectl get configmap -n ivolve
+
 kubectl get secret -n ivolve
+
 kubectl describe configmap mysql-config -n ivolve
+
 kubectl describe secret mysql-secret -n ivolve
 
 ## Key Concepts:
