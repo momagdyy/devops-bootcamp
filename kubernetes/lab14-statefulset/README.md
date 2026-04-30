@@ -21,16 +21,22 @@ Used to connect to specific database pod.
 - Replicas: 1
 
 ## Commands:
+```bash
 kubectl apply -f headless-service.yaml
 kubectl apply -f statefulset.yaml
+```
 
 ## Verify:
+```bash
 kubectl get statefulset -n ivolve
 kubectl get service -n ivolve
 kubectl get pods -n ivolve
+```
 
 ## Test Database:
+```bash
 kubectl exec -it mysql-0 -n ivolve -- mysql -u root -proot123
+```
 
 ## Result:
 - mysql-0 Running ✅
