@@ -38,3 +38,4 @@ kubectl describe networkpolicy allow-app-to-mysql -n ivolve
 - podSelector = Which pods this policy applies to
 - Ingress = Incoming traffic rules
 - Egress = Outgoing traffic rules
+  <img width="830" height="322" alt="image" src="https://github.com/user-attachments/assets/de7f8d1d-61f4-4b68-a3ed-1869a93420f8" />
