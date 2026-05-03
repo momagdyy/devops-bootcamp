@@ -33,3 +33,4 @@ kubectl describe pod nodejs-app-xxx -n ivolve
 ## Result:
 - Limits: cpu=2, memory=2Gi applied ✅
 - Requests: cpu=1, memory=1Gi applied ✅
+<img width="928" height="249" alt="image" src="https://github.com/user-attachments/assets/10698fad-5446-45f3-91bb-5139585cc031" />
